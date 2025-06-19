@@ -1,0 +1,29 @@
+{
+  "name": "telegram-file-converter-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot untuk konversi dan manajemen file",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "sqlite3": "^5.1.6",
+    "xlsx": "^0.18.5",
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.2.0",
+    "vcard-parser": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["telegram", "bot", "file-converter", "vcf", "excel", "txt"],
+  "author": "File Converter Bot",
+  "license": "MIT"
+}
